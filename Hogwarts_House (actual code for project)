@@ -7,7 +7,7 @@ def questions():
     answers = [] 
 
     # Q1
-    print("Question 1: What is your favourite quality?", end=" ")
+    print("Question 1: What is your favourite quality?", end=" ") #we use the end=" " to make sure next line is not joined with previous 
     print("a) bravery  b) intelligence  c) loyalty  d) ambition")
     answers.append(input("choice: ").lower()) #the reason we edit the list with lower is incase the user puts a capital A for example to answer their choice, this would make sure its lowercase so the program understands its the variable we mean 
 
@@ -41,7 +41,7 @@ def calculate_scores(answers):
     hufflepuff = 0
     slytherin = 0
 
-    for answer in answers:
+    for answer in answers: 
         if answer == "a": #this for example means if the user chose a in n/5 questions, add +1 to the gryffinfor account
             gryffindor += 1 #the += symbol means to add the mentioned value to the current amount, since everything starts with 0, it adds 1 for every choice in every loop
         elif answer == "b":
