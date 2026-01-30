@@ -71,7 +71,7 @@ def determine_house(scores):
 
 def main(): #this is essentially the main function, all of the other functions we went through exist in this one. Essentially this is the function that runs the program 
     """Runs the Sorting Hat Quiz program."""
-    print("Welcome to rudis sorting hat quiz, i hope u are happy with your results!")
+    print("Welcome to rudis sorting hat quiz, please choose any alphabet from a b c or d aligning with your preferance, i hope u are happy with your results!")
 
     answers = questions()  # Step 1: this part of function gets answers to questions first
     scores = calculate_scores(answers)  # Step 2: this part calculates which account/house/instance has most/max points 
